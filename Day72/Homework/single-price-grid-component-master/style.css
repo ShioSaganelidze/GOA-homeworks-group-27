@@ -1,0 +1,79 @@
+* {
+    font-family: inter;
+}
+
+:root {
+    --main-border-radius: 10px;
+}
+
+body {
+    background-color: #e6eff6;
+}
+
+.divContainer1 {
+    background-color: white;
+    padding: 30px;
+    width: 550px;
+    border-top-left-radius: var(--main-border-radius);
+    border-top-right-radius: var(--main-border-radius);
+    box-shadow: 0 0 15px hsl(218, 22%, 67%);
+}
+
+.divContainer1 p:nth-child(2) {
+    color: hsl(71, 73%, 54%);
+}
+
+.divContainer1 h1 {
+    font-size: x-large;
+    color: hsl(179, 62%, 43%);
+}
+
+.divContainer1 p:nth-child(3) {
+    color: hsl(218, 22%, 67%)
+}
+
+span {
+    font-size: 12px;
+    position: relative;
+    top: -8px;
+    left: 12px;
+    color: hsla(0, 0%, 85%, 0.699);
+    font-weight: 400;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 7px;
+    width: 230px;
+    height: 50px;
+    color: white;
+    box-shadow: 0 5px 10px rgb(62, 128, 158);
+}
+
+.divContainer2 {
+    background-color: #2bb3b1;
+    padding: 30px;
+    width: 250px;
+    border-bottom-left-radius: var(--main-border-radius);
+}
+
+.divContainer2 p, h3, h1 {
+    color: white;
+}
+
+.divContainer3 {
+    background-color: #4abebd;
+    padding: 30px;
+    width: 240px;
+    height: 210px;
+    position: relative;
+    left: 310px;
+    top: -270px;
+    border-bottom-right-radius: var(--main-border-radius);
+}
+
+.divContainer3 p {
+    color: rgb(232, 244, 250);
+    font-weight: 300;
+}
