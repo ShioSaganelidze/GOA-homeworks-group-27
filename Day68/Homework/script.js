@@ -1,13 +1,13 @@
-// let pass = "SuperShio2000"; //not my real password
-// let res = prompt("Enter your password: ");
+let pass = "SuperShio2000"; //not my real password
+let res = prompt("Enter your password: ");
 
-// if (pass === res) {
-//     console.log("Access granted");
-// }
+if (pass === res) {
+    console.log("Access granted");
+}
 
-// else {
-//     console.log("Incorrect password");
-// };
+else {
+    console.log("Incorrect password");
+};
 
 
 // let arr = [];
