@@ -14,3 +14,5 @@ function func() {
 }
 
 console.log(func());
+
+readLine()
