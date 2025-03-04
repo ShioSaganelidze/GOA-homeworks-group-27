@@ -1,3 +1,16 @@
+// kata 1:
+
+// function findMultiples(integer, limit) {
+//     let arr = [];
+//     let n = 1;
+    
+//     while (integer * n <= limit) {
+//         arr.push(integer * n);
+//         n++;
+//     }
+//     return arr
+// }
+
 // kata 2:
 
 // function countPositivesSumNegatives(input) {
@@ -16,6 +29,14 @@
 //     return [count, sum];
 // }
 
+// kata 3:
+
+// function startingMark(bodyHeight) {
+//     let x = (10.67 - 9.45) / (1.83 - 1.52);
+//     let defMark = 9.45 - x * 1.52;
+//     return Math.round((x * bodyHeight + defMark) * 100) / 100;
+// }
+
 // kata 4:
 
 // function sameCase(a, b) {
@@ -31,4 +52,4 @@
 //     }
 // }
 
-// 3 da 1 ver gavakete, 5 aris python.py file-shi
+// 5 aris python.py file-shi
