@@ -1,0 +1,33 @@
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#Move {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+button {
+    background-color: black;
+    border: 2px dashed;
+    border-radius: 30px;
+    width: 160px;
+    height: 60px;
+    color: white;
+    font-weight: 800;
+    font-size: larger;
+    transition: 0.3s;
+}
+
+body {
+    background-color: gray;
+}
+
+button:hover {
+    background-color: rgb(17, 17, 17);
+}
