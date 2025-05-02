@@ -1,11 +1,11 @@
 // hw 1:
 
 let childBtn = document.querySelectorAll('.children');
-let ind = prompt('Enter a number');
+let ind = prompt('Enter a number to make a btn red');
 childBtn[ind - 1].style.backgroundColor = 'red';
 
 let divs = document.querySelectorAll('div');
-let index = prompt('Enter a number');
+let index = prompt('Enter a number to check if a div has children');
 
 // hw 2:
 

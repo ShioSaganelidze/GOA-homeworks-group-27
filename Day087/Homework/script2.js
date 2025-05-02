@@ -1,5 +1,5 @@
 let sum = 0;
-let numbers = [65, 44, 12, 4];
+let numbers = [90, 44, 12, 1000];
 numbers.forEach(sumF);
 
 function sumF(item) {
