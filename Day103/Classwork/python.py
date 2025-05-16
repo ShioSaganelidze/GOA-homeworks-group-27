@@ -1,0 +1,1 @@
+f=lambda s:s[::s>'^'or-1]
