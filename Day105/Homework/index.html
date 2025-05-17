@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- bubbling -->
+    <!-- <div id="parent1">
+        <button id="child1">Click Me</button>
+    </div>
+
+    <script>
+        document.getElementById("parent1").addEventListener("click", () => {
+            console.log("Parent clicked");
+        });
+
+        document.getElementById("child1").addEventListener("click", () => {
+            console.log("Child clicked");
+        });
+    </script> -->
+
+    <!-- capturing -->
+    <!-- <div id="parent1">
+        <button id="child1">Click Me</button>
+    </div> -->
+
+    <!-- click, input, submit -->
+    <button id="btn">Click</button>
+    <input id="inp">
+    <form id="form"><button>Send</button></form>
+
+    <script>
+        // capturing
+        document.getElementById("parent1").addEventListener("click", () => {
+            console.log("Parent clicked");
+        }, true);
+
+        // bubbling
+        document.getElementById("child1").addEventListener("click", () => {
+            console.log("Child clicked");
+        }, true);
+
+        // var, let, const
+
+        let a = 12;
+        a = a + 2;
+        console.log(a); // 14
+        // let ქმნის ცვლადს, რომლის მნიშვნელობა შეიძლება შეიცვალოს
+
+        const b = 12;
+        // b = b + 2; // Error
+        // console.log(b); // ეს ხაზი არ გაიშვება
+        // const ქმნის ცვლადს, რომლის მნიშვნელობა არ იცვლება.
+
+        var c = 12;
+        c = c + 2;
+        console.log(c); // 14
+        // var იყენება ძველ კოდში და აქვს უფრო დიდი scope, ამიტომ ახლა უმეტესად let/const უნდა გამოიყენო.
+
+        // click, input, submit
+        let input = document.querySelector("#inp");
+
+        document.querySelector("#btn").addEventListener("click", () => alert("clicked"));
+        input.addEventListener("input", () => console.log(input.value));
+        document.querySelector("#form").addEventListener("submit", e => {
+            e.preventDefault();
+            alert("submitted");
+        });
+    </script>
+</body>
+</html>
