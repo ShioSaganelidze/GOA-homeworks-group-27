@@ -1,0 +1,37 @@
+<div id="div0"></div>
+<div id="div1"></div>
+<div id="div2"></div>
+<style>
+  body {
+    background: #51A499;
+  }
+
+  div {
+    width: 100px;
+    height: 100px;
+    background: #282828;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 200px;
+  }
+
+  #div1 {
+    transform: translate(-50%, -50%) rotate(90deg);
+    border-left: 40px solid #EAC049;
+    border-right: 40px solid #EAC049;
+    z-index: -1;
+  }
+
+  #div0 {
+    border-left: 40px solid #EAC049;
+    border-right: 40px solid #EAC049;
+  }
+
+  #div2 {
+    transform: translate(-50%, -50%) rotate(90deg);
+    z-index: 2;
+  }
+</style>
