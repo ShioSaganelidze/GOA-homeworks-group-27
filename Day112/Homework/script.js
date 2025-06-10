@@ -75,28 +75,27 @@ console.log(library.listBooks());
 
 // task 4:
 
-// class Animal {
-//     constructor(name) {
-//         this.name = name;
-//     }
+class Animal {
+    constructor(name) {
+        this.name = name;
+    }
 
-//     makeSound() {
-//         return `${this.name} რაღაც ხმას გამოსცემს`;
-//     }
-// }
+    makeSound() {
+        return `${this.name} რაღაც ხმას გამოსცემს`;
+    }
+}
 
-// class Dog {
-//     bark() {
-//         return `${this.name} ვაფ-ვაფს ამბობს`;
-//     }
-// }
+class Dog extends Animal {
+    bark() {
+        return `${this.name} ვაფ-ვაფს ამბობს`;
+    }
+}
 
-// const bobby = new Dog("ბობი");
+const bobby = new Dog("ბობი");
 
-// console.log(bobby.makeSound());
-// console.log(bobby.bark());
+console.log(bobby.makeSound());
+console.log(bobby.bark());
 
-// Ver vaketeb task 4-s ver vxvdebi ratom
 
 // task 5:
 
@@ -110,7 +109,7 @@ class User {
     }
 }
 
-class Admin {
+class Admin extends User {
     deleteUser(user) {
         console.log(`${user.username} has been deleted`);
     }
