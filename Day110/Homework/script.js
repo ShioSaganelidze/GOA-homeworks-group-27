@@ -1,9 +1,10 @@
 // homework 1:
 
+// let moveInterval
 // let div1 = document.querySelector('div');
 
 // div1.onmouseenter = () => {
-//   div1.moveInterval = setInterval(() => {
+//   moveInterval = setInterval(() => {
 //     if (div1.style.left === '1000px') {
 //       div1.style.left = '0px';
 //     } else {
@@ -12,7 +13,8 @@
 //   }, 300);
 // };
 
-// div1.onmouseleave = () => clearInterval(div1.moveInterval);
+// div1.onmouseleave = () => clearInterval(moveInterval);
+
 
 // homework 2:
 
@@ -32,7 +34,7 @@
 // setInterval(() => {
 //     box.style.backgroundColor = getRandomColor();
 //     box.style.borderRadius = getRandomRadius();
-// }, 1000);
+// }, 5000);
 
 // homework 3:
 

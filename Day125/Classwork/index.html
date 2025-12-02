@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            border: 2px dashed black;
+            padding: 20px;
+        }
+
+        #div1 {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%); 
+        }
+
+        .flexbox {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        hello world!
+    </div>
+
+    <div class="flexbox">
+        <div>hello</div>
+        <div>world</div>
+        <div>idk</div>
+        <div>500Gel</div>
+    </div>
+</body>
+</html>
