@@ -1,2 +1,2 @@
 # Goal oriented academy
-Homework repository (:
+Homework repository
